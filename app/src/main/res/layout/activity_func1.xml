@@ -21,10 +21,21 @@
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="204dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="264dp"
         android:onClick="roll"
         android:text="ROLL"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3_dice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
 </android.support.constraint.ConstraintLayout>
